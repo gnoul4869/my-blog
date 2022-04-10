@@ -1,16 +1,33 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "title": "Welcome to the new blog",
-            "body": "Eiusmod labore ea aliquip do deserunt dolor occaecat. Nostrud id do id ullamco magna labore anim excepteur ea irure exercitation aute. Aliqua occaecat occaecat deserunt sunt qui. Reprehenderit sit Lorem id culpa excepteur sunt adipisicing ipsum nisi laboris veniam non adipisicing.",
-            "tags": ["webdev", "coding", "news"]
-        },
-        {
-            "id": 2,
-            "title": "Top 5 CSS tips",
-            "body": "Eiusmod labore ea aliquip do deserunt dolor occaecat. Nostrud id do id ullamco magna labore anim excepteur ea irure exercitation aute. Aliqua occaecat occaecat deserunt sunt qui. Reprehenderit sit Lorem id culpa excepteur sunt adipisicing ipsum nisi laboris veniam non adipisicing.",
-            "tags": ["css", "webdev", "coding"]
-        }
-    ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "Welcome to the new blog",
+      "body": "Eiusmod labore ea aliquip do deserunt dolor occaecat. Nostrud id do id ullamco magna labore anim excepteur ea irure exercitation aute. Aliqua occaecat occaecat deserunt sunt qui. Reprehenderit sit Lorem id culpa excepteur sunt adipisicing ipsum nisi laboris veniam non adipisicing.",
+      "tags": [
+        "webdev",
+        "coding",
+        "news"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Top 5 CSS tips",
+      "body": "Eiusmod labore ea aliquip do deserunt dolor occaecat. Nostrud id do id ullamco magna labore anim excepteur ea irure exercitation aute. Aliqua occaecat occaecat deserunt sunt qui. Reprehenderit sit Lorem id culpa excepteur sunt adipisicing ipsum nisi laboris veniam non adipisicing.",
+      "tags": [
+        "css",
+        "webdev",
+        "coding"
+      ]
+    },
+    {
+      "title": "Hello world",
+      "body": "Remember the book of prophecies",
+      "tags": [
+        "20thcentury",
+        "boys"
+      ],
+      "id": 3
+    }
+  ]
 }
