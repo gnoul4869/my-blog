@@ -15,6 +15,7 @@
 
 <script>
 import { ref } from 'vue';
+import { useRouter } from 'vue-router';
 
 export default {
     setup() {
@@ -22,6 +23,8 @@ export default {
         const body = ref('');
         const tag = ref('');
         const tags = ref([]);
+
+        const router = useRouter();
 
         const handleKeydown = () => {
             tag.value = tag.value.replace(/\s/g, ''); // Remove all whitespace
@@ -50,6 +53,8 @@ export default {
                 title.value = '';
                 body.value = '';
                 tags.value = [];
+
+                router.push({ name: 'Home' });
             } catch (error) {
                 console.error(error);
             }
