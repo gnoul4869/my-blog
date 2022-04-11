@@ -19,12 +19,12 @@ import { useRouter } from 'vue-router';
 
 export default {
     setup() {
+        const router = useRouter();
+
         const title = ref('');
         const body = ref('');
         const tag = ref('');
         const tags = ref([]);
-
-        const router = useRouter();
 
         const handleKeydown = () => {
             tag.value = tag.value.replace(/\s/g, ''); // Remove all whitespace
@@ -120,5 +120,6 @@ button {
     padding: 8px;
     border-radius: 20px;
     font-size: 14px;
+    text-decoration: none;
 }
 </style>
