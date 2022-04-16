@@ -16,7 +16,7 @@
 <script>
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
-import { collection, addDoc } from '@firebase/firestore';
+import { collection, addDoc, serverTimestamp } from '@firebase/firestore';
 import { firestore } from '@/firebase/config';
 
 export default {
@@ -41,6 +41,8 @@ export default {
                 title: title.value,
                 body: body.value,
                 tags: tags.value,
+                createdAt: serverTimestamp(),
+                updatedAt: serverTimestamp(),
             };
 
             try {
